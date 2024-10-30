@@ -15,23 +15,23 @@ graph TD;
 
 #### Function Diagrams
 
-| `Main`    |               |  author     |
+| `Main`    |               |  kiya     |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `argument:none`    | takes input from the user for __nothing__  |              |
+| `time:none`     | calculates _nothing____  | outputs __nothing__             |
+| `name:none`      | takes input for name __nothing_ | returns menu |
 ***
-| `Menu`    |               |     author   |
+| `Menu`    |               |     jamie   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `argument:none`    | takes input from the user for __menu choice__  |              |
+| `time:integer`     | calculates __none____  | outputs ____             |
+| `name:string`      | takes input for name _choice__ | returns total |
 ***
-| `return_name`    |               |     author   |
+| `return_name`    |               |     kiya   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `argument:type`    | takes input from the user for __how many players__  |              |
+| `time:integer`     | calculates ___number of players___  | outputs _nothing___             |
+| `name:string`      | takes input for name _of players__ | returns names |
 ***
 | `random`    |               |     author   |
 | ------------------ | ------------- | ------------ |
