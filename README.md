@@ -17,13 +17,13 @@ graph TD;
 
 #### Function Diagrams
 
-| `Main`    |               |  kiya     |
+| `main`    |               |  kiya     |
 | ------------------ | ------------- | ------------ |
 | `argument:none`    | takes input from the user for __nothing__  |              |
 | `time:none`     | calculates _nothing____  | outputs __nothing__             |
 | `name:none`      | takes input for name __nothing_ | returns menu |
 ***
-| `Menu`    |               |     jamie   |
+| `menu`    |               |     jamie   |
 | ------------------ | ------------- | ------------ |
 | `argument:none`    | takes input from the user for __menu choice__  |              |
 | `time:integer`     | calculates __none____  | outputs choice            |
