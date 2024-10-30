@@ -8,39 +8,39 @@ number_guessing_game() will generate a random number between 1-1000 unless speci
  Flowchart
 ```mermaid
 graph TD;
-  A-->B;
-  A-->C;
-  A-->D;
-  A-->E;
+  main()-->menu();
+  main()-->return_name();
+  main()-->random();
+  main()-->guess();
 ```
 
 #### Function Diagrams
 
-| `main`    |               |  kiya     |
+| `main()`    |               |  kiya     |
 | ------------------ | ------------- | ------------ |
 |     | takes input from the user for __nothing__  |              |
 |      | calculates _nothing____  | outputs __nothing__             |
 |       | takes input for name __nothing_ | returns menu |
 ***
-| `menu`    |               |     jamie   |
+| `menu()`    |               |     jamie   |
 | ------------------ | ------------- | ------------ |
 | `argument:none`    | takes input from the user for __menu choice__  |              |
 | `time:integer`     | calculates __none____  | outputs choice            |
 | `name:string`      | takes input for name _choice__ | returns total |
 ***
-| `return_name`    |               |     kiya   |
+| `return_name()`    |               |     kiya   |
 | ------------------ | ------------- | ------------ |
 | `player2:string`    | takes input from the user for __name of players__  |              |
 | `player1:string`     | calculates ___number of players___  | outputs _nothing___             |
 |       | takes input for name _of players__ | returns names |
 ***
-| `random`    |               |     kiya   |
+| `random()`    |               |     kiya   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for min and max number  |              |
 | `time:integer`     | calculates a number between min and max  | outputs nothing            |
 | `name:string`      | takes input for name return | returns number  |
 ***
-| `guess`    |               |     jamie   |
+| `guess()`    |               |     jamie   |
 | ------------------ | ------------- | ----------- |
 | `argument:type`    | takes input from the user for a random number  |              |
 | `time:integer`     | calculates how close to number  | outputs outputs if you were less than, greater than, or equal         |
