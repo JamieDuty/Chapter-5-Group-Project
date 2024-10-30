@@ -36,13 +36,13 @@ graph TD;
 | `name:string`      | takes input for name _of players__ | returns names |
 ***
 | `random`    |               |     author   |
-| ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates how close to number  | outputs if you were less than, greater than, or equal             |
-| `name:string`      | takes input for name return | returns how close you were |
+| ------------------ | ------------- | ----kiya-------- |
+| `argument:type`    | takes input from the user for min and max number  |              |
+| `time:integer`     | calculates a number between min and max  | outputs nothing            |
+| `name:string`      | takes input for name return | returns number  |
 ***
 | `guess`    |               |     author   |
-| ------------------ | ------------- | ------------ |
+| ------------------ | ------------- | -----jamie------ |
 | `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `time:integer`     | calculates how close to number  | outputs outputs if you were less than, greater than, or equal         |
+| `name:string`      | takes input for name input for name return | returns how close you were |
