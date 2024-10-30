@@ -18,27 +18,24 @@ graph TD;
 
 | `main()`    |               |  kiya     |
 | ------------------ | ------------- | ------------ |
-|     | takes input from the user for __nothing__  |              |
-|      | calculates _nothing____  | outputs __nothing__             |
-|       | takes input for name __nothing_ | returns menu |
+|     | takes input from the user for __nothing__  |
+|        | returns menu |
 ***
 | `menu()`    |               |     jamie   |
 | ------------------ | ------------- | ------------ |
 | `    | takes input from the user for __menu choice__  |              |
-|      | calculates __none____  | outputs choice            |
-| `      | takes input for name _choice__ | returns total |
+|   | outputs choice 
 ***
 | `return_name()`    |               |     kiya   |
 | ------------------ | ------------- | ------------ |
-|    | takes input from the user for __name of players__  |              |
-|      | calculates name of players___  | outputs _nothing___             |
+|    | takes input from the user for __name of players__  |              |           |
 |       | takes input for name _of players__ | returns names |
 ***
 | `random()`    |               |     kiya   |
 | ------------------ | ------------- | ------------ |
 |     | takes input from the user for min and max number  |              |
-|      | calculates a number between min and max  | outputs nothing            |
-| ``      | takes input for name return | returns number  |
+|      | calculates a number between min and max             |
+                               returns number  |
 ***
 | `guess()`    |               |     jamie   |
 | ------------------ | ------------- | ----------- |
