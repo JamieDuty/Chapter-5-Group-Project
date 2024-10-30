@@ -43,6 +43,6 @@ graph TD;
 ***
 | `guess`    |               |     jamie   |
 | ------------------ | ------------- | ----------- |
-| `argument:type`    | takes input from the user for ____  |              |
+| `argument:type`    | takes input from the user for a random number  |              |
 | `time:integer`     | calculates how close to number  | outputs outputs if you were less than, greater than, or equal         |
 | `name:string`      | takes input for name input for name return | returns how close you were |
