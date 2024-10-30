@@ -30,8 +30,8 @@ graph TD;
 ***
 | `return_name()`    |               |     kiya   |
 | ------------------ | ------------- | ------------ |
-| `player2:string`    | takes input from the user for __name of players__  |              |
-| `player1:string`     | calculates ___number of players___  | outputs _nothing___             |
+|    | takes input from the user for __name of players__  |              |
+|      | calculates name of players___  | outputs _nothing___             |
 |       | takes input for name _of players__ | returns names |
 ***
 | `random()`    |               |     kiya   |
@@ -42,6 +42,6 @@ graph TD;
 ***
 | `guess()`    |               |     jamie   |
 | ------------------ | ------------- | ----------- |
-| `player 1 random:string`    | takes input from the user for a random number  |              |
-| `player2 random:string    | calculates how close to number  | outputs outputs if you were less than, greater than, or equal         |
+| `random:integer`    | takes input from the user for a random number  |              |
+| `    | calculates how close to number  | outputs outputs if you were less than, greater than, or equal         |
 | `     | takes input for name input for name return | returns how close you were |
