@@ -8,10 +8,10 @@ number_guessing_game() will generate a random number between 1-1000 unless speci
  Flowchart
 ```mermaid
 graph TD;
-  main()-->menu();
-  main()-->return_name();
-  main()-->random();
-  main()-->guess();
+  main-->menu;
+  main-->return_name;
+  main-->random;
+  main-->guess;
 ```
 
 #### Function Diagrams
