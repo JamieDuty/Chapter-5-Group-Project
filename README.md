@@ -30,9 +30,9 @@ graph TD;
 ***
 | `return_name`    |               |     kiya   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for __how many players__  |              |
-| `time:integer`     | calculates ___number of players___  | outputs _nothing___             |
-| `name:string`      | takes input for name _of players__ | returns names |
+| `player2:string`    | takes input from the user for __name of players__  |              |
+| `player1:string     | calculates ___number of players___  | outputs _nothing___             |
+|       | takes input for name _of players__ | returns names |
 ***
 | `random`    |               |     kiya   |
 | ------------------ | ------------- | ------------ |
