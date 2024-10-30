@@ -18,9 +18,9 @@ graph TD;
 
 | `main`    |               |  kiya     |
 | ------------------ | ------------- | ------------ |
-| `argument:none`    | takes input from the user for __nothing__  |              |
-| `time:none`     | calculates _nothing____  | outputs __nothing__             |
-| `name:none`      | takes input for name __nothing_ | returns menu |
+|     | takes input from the user for __nothing__  |              |
+|      | calculates _nothing____  | outputs __nothing__             |
+|       | takes input for name __nothing_ | returns menu |
 ***
 | `menu`    |               |     jamie   |
 | ------------------ | ------------- | ------------ |
@@ -31,7 +31,7 @@ graph TD;
 | `return_name`    |               |     kiya   |
 | ------------------ | ------------- | ------------ |
 | `player2:string`    | takes input from the user for __name of players__  |              |
-| `player1:string     | calculates ___number of players___  | outputs _nothing___             |
+| `player1:string`     | calculates ___number of players___  | outputs _nothing___             |
 |       | takes input for name _of players__ | returns names |
 ***
 | `random`    |               |     kiya   |
