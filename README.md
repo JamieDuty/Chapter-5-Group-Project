@@ -15,15 +15,32 @@ graph TD;
 
 #### Function Diagrams
 
-| `function name1`    |               |  author     |
+| `Main`    |               |  author     |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
 | `name:string`      | takes input for name ___ | returns total |
 ***
-| `function name2`    |               |     author   |
+| `Menu`    |               |     author   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
 | `time:integer`     | calculates ______  | outputs ____             |
 | `name:string`      | takes input for name ___ | returns total |
 ***
+| `return_name`    |               |     author   |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for ____  |              |
+| `time:integer`     | calculates ______  | outputs ____             |
+| `name:string`      | takes input for name ___ | returns total |
+***
+| `random`    |               |     author   |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for ____  |              |
+| `time:integer`     | calculates ______  | outputs ____             |
+| `name:string`      | takes input for name ___ | returns total |
+***
+| `guess`    |               |     author   |
+| ------------------ | ------------- | ------------ |
+| `argument:type`    | takes input from the user for ____  |              |
+| `time:integer`     | calculates ______  | outputs ____             |
+| `name:string`      | takes input for name ___ | returns total |
