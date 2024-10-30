@@ -24,9 +24,9 @@ graph TD;
 ***
 | `menu()`    |               |     jamie   |
 | ------------------ | ------------- | ------------ |
-| `argument:none`    | takes input from the user for __menu choice__  |              |
-| `time:integer`     | calculates __none____  | outputs choice            |
-| `name:string`      | takes input for name _choice__ | returns total |
+| `    | takes input from the user for __menu choice__  |              |
+|      | calculates __none____  | outputs choice            |
+| `      | takes input for name _choice__ | returns total |
 ***
 | `return_name()`    |               |     kiya   |
 | ------------------ | ------------- | ------------ |
@@ -36,12 +36,12 @@ graph TD;
 ***
 | `random()`    |               |     kiya   |
 | ------------------ | ------------- | ------------ |
-| `argument:type`    | takes input from the user for min and max number  |              |
-| `time:integer`     | calculates a number between min and max  | outputs nothing            |
-| `name:string`      | takes input for name return | returns number  |
+|     | takes input from the user for min and max number  |              |
+|      | calculates a number between min and max  | outputs nothing            |
+| ``      | takes input for name return | returns number  |
 ***
 | `guess()`    |               |     jamie   |
 | ------------------ | ------------- | ----------- |
-| `argument:type`    | takes input from the user for a random number  |              |
-| `time:integer`     | calculates how close to number  | outputs outputs if you were less than, greater than, or equal         |
-| `name:string`      | takes input for name input for name return | returns how close you were |
+| `player 1 random:string`    | takes input from the user for a random number  |              |
+| `player2 random:string    | calculates how close to number  | outputs outputs if you were less than, greater than, or equal         |
+| `     | takes input for name input for name return | returns how close you were |
