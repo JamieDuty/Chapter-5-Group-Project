@@ -34,8 +34,7 @@ graph TD;
 | `random()`    |               |     kiya   |
 | ------------------ | ------------- | ------------ |
 |     | takes input from the user for min and max number  |              |
-|      | calculates a number between min and max             |
-                               returns number  |
+|      | calculates a number between min and max             |   returns number  |
 ***
 | `guess()`    |               |     jamie   |
 | ------------------ | ------------- | ----------- |
