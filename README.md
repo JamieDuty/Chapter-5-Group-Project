@@ -38,8 +38,8 @@ graph TD;
 | `random`    |               |     author   |
 | ------------------ | ------------- | ------------ |
 | `argument:type`    | takes input from the user for ____  |              |
-| `time:integer`     | calculates ______  | outputs ____             |
-| `name:string`      | takes input for name ___ | returns total |
+| `time:integer`     | calculates how close to number  | outputs if you were less than, greater than, or equal             |
+| `name:string`      | takes input for name return | returns how close you were |
 ***
 | `guess`    |               |     author   |
 | ------------------ | ------------- | ------------ |
