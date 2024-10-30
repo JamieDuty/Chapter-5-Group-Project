@@ -26,7 +26,7 @@ graph TD;
 | `Menu`    |               |     jamie   |
 | ------------------ | ------------- | ------------ |
 | `argument:none`    | takes input from the user for __menu choice__  |              |
-| `time:integer`     | calculates __none____  | outputs ____             |
+| `time:integer`     | calculates __none____  | outputs choice            |
 | `name:string`      | takes input for name _choice__ | returns total |
 ***
 | `return_name`    |               |     kiya   |
