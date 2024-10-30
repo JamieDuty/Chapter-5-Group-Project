@@ -44,4 +44,4 @@ graph TD;
 | ------------------ | ------------- | ----------- |
 | `random:integer`    | takes input from the user for a random number  |              |
 | `    | calculates how close to number  | outputs outputs if you were less than, greater than, or equal         |
-| `     | takes input for name input for name return | returns how close you were |
+| `     |  | returns how close you were |
