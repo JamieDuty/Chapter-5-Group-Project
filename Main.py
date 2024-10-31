@@ -2,6 +2,23 @@ def main():
     print('hello world')
 
 def menu():
+    #menu accepts no arguments
+    #it takes input on 3 options from the user
+    #choice between set min/max, start new game, and exit
+    #set choice to 0
+    choice = 0
+    #show choices
+    print("Please choose an option:")
+    print("1. Start New Game")
+    print("2. Set min/max number")
+    print("3. Exit")
+    #user makes a choice
+    choice = int(input(":> "))
+    #if they put less than 1
+    while choice < 1:
+        print("Error. Try again.")
+    if choice == 1:
+        print("Loading.... New Game")
     pass
 
 def return_name():
