@@ -45,6 +45,11 @@ def random():
     num=r.randint(MIN,MAX)
     #return the number generated
     return num
-    
+
+    pass
+
+def random():
+    pass
+
 def guess():
     pass
