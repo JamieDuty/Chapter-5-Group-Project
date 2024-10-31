@@ -24,6 +24,10 @@ def random():
     
     num=r.randint(MIN,MAX)
     return num
+    pass
+
+def random():
+    pass
 
 def guess():
     pass
