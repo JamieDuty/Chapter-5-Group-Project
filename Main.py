@@ -1,5 +1,8 @@
 def main():
-    print('hello world')
+    #has no arguments
+    #calls menu
+    #runs program
+    menu()
 
 def menu():
     #menu accepts no arguments
