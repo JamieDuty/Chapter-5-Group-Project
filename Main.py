@@ -3,6 +3,11 @@ def main():
     #calls menu
     #runs program
     menu()
+    #get the menu
+    #get the players 1 and 2
+    #get the random number
+    return_name()
+    random()
 
 def menu():
     #menu accepts no arguments
@@ -22,22 +27,23 @@ def menu():
         print("Error. Try again.")
     if choice == 1:
         print("Loading.... New Game")
+        return_name()
     elif choice ==2:
         print("Loading.... Set Range")
         random()
     elif choice== 3:
         print("Exiting Game")
-        pass
+        
 
 
 def return_name():
     #accepts no arguments
     #gets names from user
     #returns names
-    player1=input("What is the name of player 1: ")
-    player2= input("What is the name of player 2: ")
+    player1 =input("What is the name of player 1: ")
+    player2 =input("What is the name of player 2: ")
     return player1, player2
-
+    
    
 
 def random():
@@ -54,17 +60,24 @@ def random():
     num=r.randint(MIN,MAX)
     #return the number generated
     return num
+    
 
 
-def random():
-
-    pass
-
-def guess(num, player1, player2):
+def guess(player1, player2, num):
     #guess takes arguments from random and return name, which are num, player 1, player2
     #guess will calculate if you got the guess correct, and if you are too high or low
     #guess will also keep track of how many turns have gone
     #make guess to 0
     #testing
-    GUESS1 = 0
-    GUESS2 = 0
+    pg1=1
+    pg2=1
+    while True:
+        guess1 = int(input(f"Enter your guess {player1}"))
+        if guess1 /= num:
+            pg1=pg1+1
+            guess1=int(input(f"Enter your guess {player1}"))
+        else:
+            print("You guessed correct.")
+        
+            
+        
