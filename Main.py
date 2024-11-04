@@ -19,7 +19,7 @@ def menu():
         print("Error. Try again.")
     if choice == 1:
         print("Loading.... New Game")
-    pass
+    
 
 def return_name():
     #accepts no arguments
@@ -41,7 +41,7 @@ def random():
     
     num=r.randint(MIN,MAX)
     return num
-    pass
+    
 
 def random():
     pass
