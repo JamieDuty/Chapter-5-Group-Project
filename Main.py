@@ -1,5 +1,8 @@
 def main():
-    print('hello world')
+    #has no arguments
+    #calls menu
+    #runs program
+    menu()
 
 def menu():
     #menu accepts no arguments
@@ -26,6 +29,7 @@ def menu():
         print("Exiting Game")
         pass
 
+
 def return_name():
     #accepts no arguments
     #gets names from user
@@ -50,6 +54,10 @@ def random():
     num=r.randint(MIN,MAX)
     #return the number generated
     return num
+
+
+def random():
+
     pass
 
 def guess(num, player1, player2):
