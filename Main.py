@@ -24,7 +24,7 @@ def menu():
         random()
     elif choice== 3:
         print("Exiting Game")
-    
+        pass
 
 def return_name():
     #accepts no arguments
@@ -33,7 +33,8 @@ def return_name():
     player1=input("What is the name of player 1: ")
     player2= input("What is the name of player 2: ")
     return player1, player2
-    
+
+   
 
 def random():
     #accepts no arguments
@@ -49,8 +50,7 @@ def random():
     num=r.randint(MIN,MAX)
     #return the number generated
     return num
-    return num
-    
+    pass
 
 def guess(num, player1, player2):
     #guess takes arguments from random and return name, which are num, player 1, player2
