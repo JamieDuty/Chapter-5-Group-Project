@@ -69,6 +69,7 @@ def guess(player1, player2, num):
     #guess will also keep track of how many turns have gone
     #make guess to 0
     #testing
+    
     pg1=1
     pg2=1
     while True:
