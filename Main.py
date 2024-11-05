@@ -2,12 +2,21 @@ def main():
     #has no arguments
     #calls menu
     #runs program
-    menu()
+    option = menu()
     #get the menu
     #get the players 1 and 2
     #get the random number
-    return_name()
-    random()
+    print(option)
+    if option == 1:
+        player1, player2 = return_name()
+        num = random()
+        guess(player1, player2, num)
+        main()
+    elif option == 2:
+        num = random()
+        player1, player2 = return_name()
+        guess(player1, player2, num)
+        main()
 
 def menu():
     #menu accepts no arguments
@@ -28,11 +37,10 @@ def menu():
     if choice == 1:
         print("Loading.... New Game")
     elif choice ==2:
-        random()
         print("Loading.... Set Range")
     elif choice== 3:
         print("Exiting Game")
-        
+    return choice 
 
 
 def return_name():
@@ -68,18 +76,67 @@ def guess(player1, player2, num):
     #guess will also keep track of how many turns have gone
     #make guess to 0
     #testing1
-    
+    print(num)
 
     #make variables for how many turns it takes
-    pg1=1
-    pg2=1
-    while True:
-        guess1 = int(input(f"Enter your guess {player1}"))
-        if guess1 != num:
-            pg1=pg1+1
-            guess1=int(input(f"Enter your guess {player1}"))
-        else:
-            print("You guessed correct.")
+    pg1=0
+    pg2=0
+    guess1 = int(input(f"Enter your guess {player1} "))
+    if guess1 <= 0:
+        print("Error. Reinput.")
+        guess1 = int(input(f"Enter your guess {player1} "))
+    if guess1 < num:
+        print("The number is higher.")
+    if guess1 > num:
+        print("The number is lower.")
+    
+    if guess1 == num:
+        print("You guessed correct.")
+        print(f'Player 1 guessed {pg1} times, player 2 guessed {pg2} times.')
         
+    
+    guess2 = int(input(f"Enter your guess {player2} "))
+    if guess2 <= 0:
+        print("Error. Reinput.")
+        guess2 = int(input(f"Enter your guess {player2} "))
+    if guess2 < num:
+        print("The number is higher.")
+    if guess2 > num:
+        print("The number is lower.")
+        
+    if guess2 == num:
+        print("You guessed correct.")
+        print(f'Player 1 guessed {pg1} times, player 2 guessed {pg2} times.')
+        
+    
+    while guess1 != num or guess2 != num:
+        pg1=pg1+1
+        pg2=pg2+1
+        guess1 = int(input(f"Enter your guess {player1} "))
+        if guess1 <= 0:
+            print("Error. Reinput.")
+            guess1 = int(input(f"Enter your guess {player1} "))
+        if guess1 < num:
+            print("The number is higher.")
+        if guess1 > num:
+            print("The number is lower.")
+        
+        if guess1 == num:
+            print("You guessed correct.")
+            print(f'Player 1 guessed {pg1} times, player 2 guessed {pg2} times.')
+        guess2 = int(input(f"Enter your guess {player2} "))
+        if guess2 <= 0:
+            print("Error. Reinput.")
+            guess2 = int(input(f"Enter your guess {player2} "))
+        if guess2 < num:
+            print("The number is higher.")
+        if guess2 > num:
+            print("The number is lower.")
+        
+        if guess2 == num:
+            print("You guessed correct.")
+            print(f'Player 1 guessed {pg1} times, player 2 guessed {pg2} times.') 
+            
+main() 
             
         
