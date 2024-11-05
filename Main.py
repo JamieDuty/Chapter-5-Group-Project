@@ -68,7 +68,7 @@ def guess(player1, player2, num):
     #guess will calculate if you got the guess correct, and if you are too high or low
     #guess will also keep track of how many turns have gone
     #make guess to 0
-    #testing
+    #testing1
     
     pg1=1
     pg2=1
