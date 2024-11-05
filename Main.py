@@ -66,6 +66,10 @@ def guess(player1, player2, num):
     #guess takes arguments from random and return name, which are num, player 1, player2
     #guess will calculate if you got the guess correct, and if you are too high or low
     #guess will also keep track of how many turns have gone
+    #make guess to 0
+    #testing
+    
+
     #make variables for how many turns it takes
     pg1=1
     pg2=1
