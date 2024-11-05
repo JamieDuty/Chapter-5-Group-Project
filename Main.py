@@ -27,10 +27,9 @@ def menu():
         print("Error. Try again.")
     if choice == 1:
         print("Loading.... New Game")
-        return_name()
     elif choice ==2:
-        print("Loading.... Set Range")
         random()
+        print("Loading.... Set Range")
     elif choice== 3:
         print("Exiting Game")
         
@@ -49,7 +48,7 @@ def return_name():
 def random():
     #accepts no arguments
     #generates random number
-    # returns number
+    #returns number
     #within the min/max
     import random as r
     #generate min and max
@@ -67,13 +66,12 @@ def guess(player1, player2, num):
     #guess takes arguments from random and return name, which are num, player 1, player2
     #guess will calculate if you got the guess correct, and if you are too high or low
     #guess will also keep track of how many turns have gone
-    #make guess to 0
-    #testing
+    #make variables for how many turns it takes
     pg1=1
     pg2=1
     while True:
         guess1 = int(input(f"Enter your guess {player1}"))
-        if guess1 /= num:
+        if guess1 != num:
             pg1=pg1+1
             guess1=int(input(f"Enter your guess {player1}"))
         else:
