@@ -1,3 +1,4 @@
+import random as r
 def main():
     #has no arguments
     #calls menu
@@ -9,7 +10,7 @@ def main():
     #print(option) -testing what the selected choice was
     if option == 1:
         player1, player2 = return_name()
-        num = random()
+        num=r.randint(1,1000)
         guess(player1, player2, num)
         main()
     elif option == 2:
@@ -62,7 +63,6 @@ def random():
     #generate min and max
     MIN = int(input("What would you like your MIN to be: "))
     MAX = int(input("What would you like your MAX to be: "))
-    import random as r
     #generate random number
     num=r.randint(MIN,MAX)
     #return the number generated
